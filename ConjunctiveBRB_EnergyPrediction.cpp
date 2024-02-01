@@ -681,7 +681,7 @@ void showActivationWeight()
     //consequentBeliefDegree[maxRuleL];
 }
 
-/*void updateBeliefDegree()
+void updateBeliefDegree()
 {
     int update = 0;
     float sumAntAttr1 = 1;
@@ -714,7 +714,7 @@ void showActivationWeight()
         //cout << endl << "No upgradation of belief degree required." << endl;
     }
     
-}*/
+}
 
 void takeCnnOutput()  
 { 
@@ -1047,7 +1047,7 @@ int main()
     calculateMatchingDegreeBrbCnn();
     showMatchingDegree();
     showActivationWeight();
-    //updateBeliefDegree();
+    updateBeliefDegree();
     aggregateER_BrbCnn(); 
     explainOutput();
       
